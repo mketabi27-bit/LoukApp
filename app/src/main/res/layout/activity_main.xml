@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📰 آخرین اخبار"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="۱. خبر جدید از تکنولوژی امروز"
+        android:padding="12dp"
+        android:background="#f0f0f0"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="۲. اپلیکیشن‌های برتر هفته"
+        android:padding="12dp"
+        android:background="#f0f0f0"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ثبت‌نام در اپلیکیشن"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+
+</LinearLayout>
